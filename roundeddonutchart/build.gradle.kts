@@ -45,7 +45,7 @@ publishing {
         create("release", MavenPublication::class) {
             groupId = "com.nhadt" // com.github.<yourusername>
             artifactId = "RoundedDonutChart" // your repository name
-            version = "0.0.1" // version we want to publish (say 0.0.1)
+            version = "0.0.2" // version we want to publish (say 0.0.1)
 
             afterEvaluate {
                 from(components["release"])
